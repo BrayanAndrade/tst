@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <!-- <meta name="author" content="Brayan Andrade" />
+    <meta name="description" content="Desenvolvedor Front-End e UI Designer" />
+    <meta name="keywords"
+        content="sites, web, desenvolvimento, programador, developer, brayanandrade, front-end, frontend, designer, ux, ui, webdesign, website, portfolio" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="content-language" content="pt-br" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="copyright" content="Brayan Andrade 2021" />
+    <meta property="og:image" content="https://brayanandrade.vercel.app/img/preview.png" />
+    <meta property="og:title" content="Portfolio | Brayan Andrade" />
+    <meta property="og:description" content="Front-End Developer | Ui Designer" /> -->
+    <title>Raised In Oblivion</title>
+
+
+   
+    <link rel="icon" href="img/LogoRio.png">
+  
+
+
+
+
+
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Berkshire+Swash&family=Inter:wght@100;400;800&family=Montserrat:wght@100;200;400;600;800&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,800;1,400;1,600;1,800&display=swap" rel="stylesheet">
+
+
+
+    <link rel="stylesheet" href="./scss/style.css">
+
+
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+  
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+
+</head>
+
+<body>
+    
+
+
+
+    <section class="corte">
+        <video autoplay muted loop>
+            <source src="./img/RIO_ArtworkMuroVideoLoop.mp4" type="video/mp4" />
+          </video>
+  
+          <div id="overlay"> </div>
+  
+          <h3>Scroll to Explore</h3>    
+    </section>
+
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+
+
+    <div id="scrollPath"></div>
+    <div id="progressbar"></div>
+
+   <header>
+        <nav class="navbar">
+            <div class="maxWidth">
+                <div class="logo">
+                    <a href="#" class="logofirst">
+                        <img src="./img/LogoFirstWhite.svg" alt=""> 
+                    </a>
+                </div>
+                <ul class="menu">
+                    <a href="#" class="logorio">
+                        <img src="./img/LogoRio.png" alt=""> 
+                    </a>
+                    <li><a href="#" class="menuBtn">HOME</a></li>
+                    <li><a href="game.html" class="menuBtn">GAME</a></li>
+                    <li><a href="#" class="menuBtn">TEAM</a></li>
+                    <li><a href="#" class="menuBtn">WIKI</a></li>
+                    <li><a href="#" class="menuBtn">MARKETPLACE</a></li>
+                    <li><a href="#" class="menuBtn">WHITEPAPER</a></li>
+                    <li><a href="support.html" class="menuBtn">SUPPORT</a></li>
+                        <div class="socialsMenu">
+                            <img src="./img/icon_facebook.svg" alt="" >
+                            <img src="./img/icon_twitter.svg" alt="" >
+                            <img src="./img/icon_discord.svg" alt="" >
+                            <img src="./img/icon_youtube.svg" alt="" >
+                            <img src="./img/icon_instagram.svg" alt="" >
+                            <img src="./img/icon_reddit.svg" alt="" >
+                        </div>
+                </ul>
+
+             
+            
+            <div class="menuBtn">
+                <img src="./img/menuIcon.svg" alt="">
+            </div>
+        </div>
+        </nav>  
+      </header>
+ 
+    <section class="home" id="home">
+        <div class="maxWidth">
+            <div class="container homez-in">
+
+                <div class="firstContent">
+                    <div class="videoPlayer">
+                        <button class="_click-to-play _inactive-state" id="_video" onclick="openNav()"></button>  
+                
+                       
+                         
+                    </div>
+                </div>
+
+
+                <div class="secondContent bodyline">
+                    <!-- <div class="imgHoverEffect img"></div> -->
+                    <img src="img/LogoRio.png" alt="profile picture">
+                    <p>Depois que subiram os muros na região do Vidigal a palavra paz não existe mais, o ser humano é capaz de tudo para 
+                        sobreviver e as pessoas estão desaparecendo. Os relatos de ataques são constantes, não tem para onde fugir. 
+                        SOBREVIVA!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" player.pauseVideo():Void class="closebtn" onclick="closeNav()">close</a>
+      
+    
+        <div class="overlay-content" >
+            <div class="shell">
+                <div id="_player" class="_player-video">
+                    <img class="_btn-play" src="img/playIcon.png" alt="Video Player YouTube" title="Video Player YouTube" style="width: 100px"/>
+                </div>
+            </div>
+        </div>
+      
+      </div>
+  
+
+    <section class="about" id="about">
+        <div class="maxWidth">
+            <div class="container">
+                <div class="left punchline">
+                    <div data-tilt data-tilt-axis="y" data-tilt data-tilt-axis="y" class="img">
+                        <img src="./img/about.png" alt="profile photo">
+                    </div>
+
+                    <div class="shadow"></div>
+                </div>
+
+                <div class="right">
+                    <h2 class="title tagline">RAISED IN OBLIVION</h2>
+
+                    <p class="text punchline">Raised in Oblivion, ou apenas RIO é um jogo de ação e sobrevivência online
+                         ambientada na cidade do Rio de Janeiro. No universo de RIO, 
+                         em um Brasil pós-apocalíptico , mas especificamente na região do Vidigal, 
+                         a disseminação de uma doença infecciosa que faz com que as pessoas, 
+                         por ela acometidas, passem a se comportar inconscientemente de forma agressiva 
+                         a ponto de atacar outras pessoas sem nenhum motivo, e a fim de suprimir 
+                         o contágio, o governo local construiu muros de contenção., quem está dentro 
+                         não pode sair e quem está fora não pode entrar, será necessário sobreviver 
+                         ao caos até que a cura seja descoberta.</p>
+
+
+                         <!-- <button> <a href="http://">SAIBA MAIS</a></button> -->
+                  
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="news" id="news">
+       
+        <div class="maxWidth">
+            <div class="content">
+                <h2 class="bodyline">NEWS</h2>
+                <p>RIO será o primeiro jogo de FPS sobrevivência PLAY TO EARN.
+    
+                    Estamos realizando uma integração com a rede Polygon (MATIC) em parceria com a PORTAL WHALE CAPITAL, adicionando in-game sistema de recompensas, Staking, NFTs e um Metaverso. Você poderá comprar e vender itens, nfts, terras e outdoors na safe-zone ou em nosso website conectando sua wallet e utilizando nosso token RIO, suas recompensas em RIO podem ser trocadas por stable coins ou poupadas através do sistema de farming
+                    </p>
+                    
+                     <img class="portal" src="./img/11.png" alt="">
+                    
+    
+                </div>
+            </div>
+           
+            <img class="transition" src="./img/transitionn.png" alt="">
+    </section>
+
+
+
+
+    <div class="gamemode" id="gamemode">
+      
+        <div class="maxWidth">
+            
+            <div class="container">
+
+<div class="left">
+    <img src="./img/gamemode.png" alt="">
+</div>
+            <div class="right">
+                <h2 class="title headline">Survival Mode</h2>
+                <p>A ideia de trazer o modo sobrevivência veio do nosso CEO, um jogador fanático por esse estilo de jogo. 
+                    “Sentimos essa necessidade, após ver o modo esfriar com a entrada do Team Deathmatch e Battle Royale, 
+                    acreditamos sim que é um modo diferente de sentir o jogo e que todas as decisões tomadas influenciarão 
+                    na sua jogabilidade” -Bannaker Braulio (CEO)
+                    Além disso o sistema de fome e sede obrigam o player a estar sempre em constante movimentação para 
+                    captar os recursos distribuídos pelo mapa, uma dica, faça isso antes do pôr do sol, já que o jogo conta 
+                    com sistema dia e noite e nossos servidores são 24hrs.
+                   </p>
+            </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+    <section class="projects" id="projects">
+        <div class="maxWidth">
+            <div class="container">
+                <div class="left">
+                    <img src="./img/assa.png" alt="">
+                    <h2>ORDEM</h2>
+                    <h4>OPERACOES ESPECIAIS</h4>
+                    <p>Se você está do lado da lei, você pode ser um agente. 
+                        Seja a luz no fim do túnel para os novatos, 
+                        mas tenha cuidado, se os assassinos matam inocentes sem motivos, 
+                        para matar um agente da ordem eles tem todos os motivos do mundo.
+                    </p>
+                </div>
+                <div class="center">
+                    <img src="./img/classes.png" alt="">
+                </div>
+                <div class="right">
+                    <img src="./img/assa.png" alt="">
+                    <h2>ASSASSIN</h2>
+                    <h4>ORGANIZAÇÃO ASSASSINA</h4>
+                    <p>Antes de toda essa merda começar, nós já éramos isolados do mundo, 
+                        agora eles querem se preocupar com a gente?
+                        Nós somos a ORDEM, se eles acharem que vão pacificar esse lugar, 
+                        estão enganados. Botar a cara que VAI FICAR FUDIDO!
+                        
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+
+      
+
+       
+    </section> -->
+
+
+    <section class="roadmap">
+        <img class="transition" src="./img/transitionroadmap.png" alt="">
+        <div class="maxWidth">
+           
+            
+            
+          
+            <div class="container">
+                
+                <div class="left">
+                    <div class="text">
+                        <!-- <h2>PVP</h2> -->
+                        <p>Quando encontrar um sobrevivente, 
+                            você pode abate-lo para tomar seu drop 
+                            ou juntar-se a ele para aumentar as chances 
+                            da sua sobrevivência, a escolha é sua!
+                        </p>
+                    </div>
+                    <div class="image">
+                        <img src="./img/vsimage.png" alt="" srcset="">
+                    </div>
+                </div>
+    
+                <div class="right">
+                    <div class="image">
+                        <img src="./img/pveimage.png" alt="" srcset="">
+                    </div>
+                    <div class="text">
+                        <!-- <h2>PVE</h2> -->
+                        <p>Combata os infectados que tentarão te machucar 
+                            ou fazer algo pior. Cuidado para não chamar atenção 
+                            desnecessária, você já tem muitos problemas para ter 
+                            que correr de uma horda de pessoas enlouquecidas
+                        </p>
+                    </div>
+                   
+                </div>
+             
+            </div>
+        </div>
+       
+    </section>
+
+   
+
+
+
+
+<section class="excecutives">
+    <img class="transition"src="/img/transitionexecutive.png" alt="">
+    <div class="maxWidth">
+        <div class="container">
+            <h1>EXCECUTIVES</h1>
+           
+            <div class="firstContent">
+                <div class="image">
+                    <img src="./img/ban.png" alt="">
+                </div>
+          
+                <div class="text">
+                     
+                    <p class="title">Bannaker Braulio <br> CEO/FOUDER</p>
+                    <p class="subtitle">Responsável pela criação e por dirigir toda 
+                        equipe na parte técnica no desenvolvimento, 
+                        atuando na área de modelagem 3D e level Designer
+                    </p>
+                    <p class="description">Com a ideia de mudar o cenário brasileiro de games, 
+                        Bannaker Braulio teve a ideia de criar um projeto ousado. 
+                        Sempre otimista, no final de 2019 obteve sucesso ao levar 
+                        seu projeto mais promissor, RIO – Raised In Oblivion, para 
+                        o Brasil Game Show, trazendo para casa o título de melhor game 
+                        indie da América Latina. Após várias contatos, em 2021 fechou 
+                        parceria com a empresa PORTAL WHALE CAPITAL para entrar no mercado 
+                        Cripto, possibilitando a entrande de tokens, NFTs e o Metaverso no jogo RIO. 
+                        Nossa missão é levar diversão e ao mesmo tempo  beneficiar os 
+                        players financeiramente através do sistema Play to Earn,  
+                        despertar sentidos e sentimentos, elevando-os a outro nível 
+                        através de nossos jogos, sempre com honestidade, 
+                        comprometimento e respeito pelos players e colaboradores.
+                    </p>
+                </div>
+            </div>
+
+                <div class="secondContent">
+                    <div class="cards">
+                        <div class="card">
+                            <img src="/img/jhoniker.png" alt="">
+                            <p class="title">Jhoniker Braulio</p>
+                            <p class="subtitle">COO (Chief Operating Officer)</p>
+                            <p class="description">Responsável pela operação diária da empresa, coordenando de perto as rotinas operacionais e envolvido no planejamento estratégico
+                            </p>
+                            <!-- <img src="./img/bgExcecutive.png" alt="" srcset=""> -->
+
+                        </div>
+
+                        <div class="card">
+                            <img src="/img/andreas.png" alt="">
+                            <p class="title">Andreas Klettenhofer</p>
+                            <p class="subtitle">IP (Investor Partner)</p>
+                            <p class="description">Responsável pelo investimento e pela organização, sendo crucial nas decisões de negociações, fazendo todo o estudo necessário para ótimos negócios para a empresa. 
+                            </p>
+                            <!-- <img src="./img/bgExcecutive.png" alt="" srcset=""> -->
+
+                        </div>
+
+                        <div class="card">
+                            <img src="/img/wander.png" alt="">
+                            <p class="title">Wander Rolse</p>
+                            <p class="subtitle">IP (Investor Partner)</p>
+                            <p class="description">Responsável pelo gerenciamento do investimento e na arquitetura dos processos otimizando os resultados da empresa.     
+                            </p>
+                            <!-- <img src="./img/bgExcecutive.png" alt="" srcset=""> -->
+
+                        </div>
+                    </div>
+                </div>
+           
+        </div>
+    </div>
+<img class="folha"src="/img/folhas.png" alt="">
+</section>
+                    
+
+
+
+
+
+<div class="early-accsess">
+    <div class="maxWidth">
+        <div class="container">
+            <h1 class="title">EARLY ACCSESS</h1>
+            <p>O jogo se encontra em acesso antecipado (ALPHA), 
+                para que os players sintam a jogabilidade, 
+                no final de janeiro/2022 vamos disponibilizar 
+                uma DEMO OFF, para vocês baixarem direto do site, 
+                e sentir a interação do player com as armas e com o mapa
+            </p>
+            <button>DEMO ACCSESS</button>
+        </div>
+    </div> 
+    <img class="folha" src="/img/folhaleft.png" alt="">
+    <img class="transition" src="/img/transitionEarly.png" alt="">
+</div>
+
+
+
+
+
+
+      
+
+   
+
+
+    <footer>
+
+      <span>
+            <span class="far fa-copyright"></span>
+            2021 All Rights Reserved.</span>
+    </footer>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+crossorigin="anonymous"></script>
+
+
+
+    <!-- <script src="owlcarousel/owl.carousel.min.js"></script> -->
+    <!-- <script src="./js/glider.js"></script> -->
+    <!-- <script src="./js/lightbox.js"></script> -->
+    <!-- <script src="./js/glider.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" integrity="sha512-dLxUelApnYxpLt6K2iomGngnHO83iUvZytA3YjDUCjT0HDOHKXnVYdf3hU4JjM8uEhxf9nD1/ey98U3t2vZ0qQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js" integrity="sha512-DkPsH9LzNzZaZjCszwKrooKwgjArJDiEjA5tTgr3YX4E6TYv93ICS8T41yFHJnnSmGpnf0Mvb5NhScYbwvhn2w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/hover-effect.umd.js"></script>
+    <!-- <script src="https://unpkg.com/scrollreveal"></script> -->
+    <script src="js/script.js"></script>
+    <script src="js/vanilla-tilt.js"></script>
+   
+    <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+
+    <script>
+        var myAnimation = new hoverEffect({
+            parent: document.querySelector('.imgHoverEffect'),
+            intensity: 1.8,
+            image1: 'img/braia2.png',
+            image2: 'img/braia.png',
+            displacementImage: 'img/12.jpg'
+        });
+    </script>
+
+
+</body>
+
+</html>

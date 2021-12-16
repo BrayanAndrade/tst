@@ -1,0 +1,27 @@
+.projects{
+    background: #fff;
+    // padding-bottom: 200px;
+    transition: all 1.5s cubic-bezier(0.4, 0, 0.2, 1);
+    // background: var(--bgBody);
+    // background-size: contain;
+    // position: relative;
+
+   
+
+// background-color: var(--bgBlack);
+.container{
+    display: flex;
+
+    .left{
+        p{
+            width: 250px;
+        }
+    }
+
+    .right{
+        p{
+            width: 250px;
+        }
+    }
+}
+}

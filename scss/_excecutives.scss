@@ -1,0 +1,98 @@
+.excecutives{
+    background: #fff;
+    .transition{
+        width: 100%;
+      
+            filter: invert(10%);
+        
+    }
+    // height: 80vh;
+    .container{
+       
+        // display: flex;
+        padding-top:100px;
+        h1{
+            text-align: center;
+        }
+
+        .firstContent{
+            margin: auto;
+            display: flex;
+            // border: 1px solid red;
+            width: 90% !important;
+        .image{
+            margin: auto;
+        }
+        
+        .text{
+            margin: auto;
+            width: 600px;
+            .title{
+                color: #E36732;
+            }
+    
+            .subtitle{
+                padding-top: 20px;
+            }
+    
+            .description{
+                padding-top: 70px;
+            }
+        }
+
+        }
+
+
+        .secondContent{
+            margin: auto;
+            // border: 1px solid blue;
+            width: 90%;
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-bottom: 100px;
+            .cards{
+                padding-top: 50px;
+                display: flex;
+                justify-content: space-around;
+                .card{
+                   
+                    height: 350px;
+                    width: 250px;
+                    background-color: #000;
+                    // background-image: url(/img/bgExcecutive.png);
+                    img{
+                        margin: auto;
+                        margin-top: 15px;
+                        margin-bottom: 15px;
+                        width: 60%;
+                    }
+
+                    p{
+                        margin: 10px;
+                        color: #fff;
+                    }
+
+                    .title{
+                        color: #E36732;
+                    }
+
+                    .subtitle{
+                        font-weight: bold;
+                        font-size: 0.8em;
+                    }
+
+                    .description{
+                        font-size: 0.9em;
+                    }
+                }
+            }
+        }
+    }
+    .folha{
+        right: 0;
+        float: right;
+        clear: right;
+        // transform: translate(1638px, -638px);
+        
+    }
+}

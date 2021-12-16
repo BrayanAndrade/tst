@@ -1,0 +1,144 @@
+$fontPrincipal: 'Arial', monospace, 'Montserrat', sans-serif;
+@font-face {
+	font-family: Akira;
+	src: url(../fonts/AkiraExpandedDemo.otf)
+}
+
+
+:root {
+  //backgroundColors
+  --bgLight:#3E3E3E;
+  --bgMedium: #202020;
+  --bgDark: #181818;
+  --bgBlack: #000000;
+  --bgShadow: #181818b9;
+  --bgNav: #ffffffb9;
+
+  
+  --boxMedium:#232323;
+  --boxDark: #1e1e1e;
+
+ 
+  --boxShadowM: #272727;
+  --boxShadowD: #1b1b1b;
+
+
+
+  
+  --nav: #020202;
+  --theme: #f1ffcc;
+
+   --textWhite: rgba(126, 126, 126, 0.596);
+  --textLight: rgb(163, 163, 163);
+  --textMedium: rgb(192, 192, 192);
+  --textDark: rgb(236, 236, 236);
+
+  --purple: #7728FF;
+  --pink: #ff00c8;
+
+
+  --box: -7px -7px 20px 0 rgba(255, 255, 255, 0.1),
+  7px 7px 20px 0 rgba(3, 3, 3, 0.8);
+
+  --boxHover: inset -7px -7px 20px 0 rgba(255, 255, 255, 0.192),
+  inset 7px 7px 20px 0 rgba(3, 3, 3, 0.9);
+
+  --imgHover:   0px 0px 50px 5px rgba(12, 0, 32, 1);
+
+
+  --boxsmall: -4px -4px 13px 0 rgba(255, 255, 255, 0.1),
+  4px 4px 20px 0 rgba(3, 3, 3, 0.8);
+
+  --boxsmallHover: inset -7px -7px 20px 0 rgba(255, 255, 255, 0.192),
+  inset 7px 7px 20px 0 rgba(3, 3, 3, 0.9);
+
+
+  --bgImg: url("../img/bgDark.png");
+  --bgBody: url("../img/bgBlack2.jpg");
+
+  } 
+  
+  .darkMode:root {
+    --bgLight: #F0FAFF;
+    --bgMedium: #E7F0FF;
+    --bgDark: #d0dffa;
+    --bgBlack: #8eb5ff;
+    --bgShadow: #e7f0ffb9;
+    --bgNav: #000000b9;
+
+  
+    --boxMedium:#e9f1ff;
+    --boxDark: #c4d8ff;
+
+
+    --boxShadowM:#ebf3ff;
+    --boxShadowD:#c4d7fd;
+
+    --nav: #fff,#1868f3;
+    --theme: #001f53;
+
+
+    --textWhite: rgba(84, 104, 134, 0.397);
+    --textLight: rgb(90, 123, 173);
+    --textMedium: rgb(54, 54, 54);
+    --textDark: rgb(46, 48, 66);
+    
+    --purple: #7728FF;
+    --pink: #ff00c8;
+
+
+
+
+
+    
+    --box: -7px -7px 20px 0 rgb(255,255,255),
+    7px 7px 20px 0 rgba(40, 56, 136, 0.2);
+
+    --boxHover: inset  -7px -7px 20px 0 rgb(255,255,255),
+    inset 7px 7px 20px 0 rgba(40, 56, 136, 0.8);
+
+    --boxsmall: -7px -7px 20px 0 rgb(255,255,255),
+    7px 7px 20px 0 rgba(40, 56, 136, 0.2);
+
+    --boxsmallHover: inset  -7px -7px 20px 0 rgb(255,255,255),
+    inset 7px 7px 6px 0 rgba(40, 56, 136, 0.4);
+
+    --imgHover:   0px 0px 50px 5px var(--textLight); 
+
+   
+
+
+
+    --bgImg: url("../img/bgLight.png");
+    --bgBody: url("../img/bgWhite.jpg") top repeat-y;
+
+  }
+
+
+
+  
+
+
+@mixin botao {
+  justify-content:space-between;
+  align-items:center;
+  text-align:center;
+  // width: 120px;
+  // height: 35px;
+  display: inline-block;
+  background: var(--bgDark);
+  color: #7e96bb;
+  border-radius: 12px;
+  box-shadow: var(--box); 
+  transition: all 1.3s ease;
+
+  
+  &:hover {
+    color: #52698b;
+    background: none;
+    box-shadow: var(--boxHover)
+  }
+}
+
+
+

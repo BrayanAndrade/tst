@@ -1,0 +1,37 @@
+.early-accsess{
+    padding-top: 100px;
+    background: #fff;
+    margin: auto;
+
+    .container{
+        margin: auto;
+   
+        .title{
+            text-align: center;
+        }
+        p{
+            padding-top:50px;
+            margin: auto;
+            text-align: center;
+            width: 600px;
+            padding-bottom: 50px;
+        }
+        button{
+            transform: translateX(135%);
+            margin: auto !important;
+            cursor: no-drop;
+            width: 319px;
+            height: 71px;
+            background: linear-gradient(91.34deg, #8f8f8f 13.32%, #585858 92.75%);
+            border-radius: 3px;
+            margin-bottom: 50px;
+
+            &:hover{
+                background: linear-gradient(91.34deg, #E36732 13.32%, #E35232 92.75%);
+            }
+        }
+    }
+    .folha{
+transform:translateY(-150px);
+    }
+}

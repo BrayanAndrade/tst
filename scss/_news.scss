@@ -1,0 +1,62 @@
+.news{
+    background-image: url(../img/tese.jpg);
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    // background-attachment: fixed;
+    height: 70%;
+    transition: all 1.5s cubic-bezier(0.4, 0, 0.2, 1);
+
+
+    .maxWidth{
+        z-index: 99999999 !important;
+
+        .content{
+            padding-top: 250px;
+            h2{
+                transform: translateY(-200%);
+                text-align:center;
+                padding: 100px 0 0px 0;
+                // text-align: center;
+                // @include TextGradient;
+            }
+    
+            p{ 
+                text-align:center;
+                font-size: 0.9em;
+                // padding-left: 30px;
+                // padding-right: 30px;
+                padding-top: 155px;
+                padding-bottom: 0px;
+                color: var(--textLight);
+                color: #fff !important;
+                // text-align: left;
+                line-height: 25px;
+                font-family: 'Montserrat', sans-serif;
+                width: 100%;
+                // width: 447px;
+            }
+    
+            .portal{
+                position: absolute;
+                bottom: 0;
+                width: 50px;
+            }
+    
+        }
+      
+       
+
+
+  
+
+    
+    .transition{
+        position: absolute;
+        width: 100%;
+        // transform: translateY(-50px);
+        bottom: 0;
+    }
+
+}
+}

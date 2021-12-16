@@ -1,0 +1,86 @@
+.about{
+    //border-top: 2px solid var(--purple);
+    // background: url(../img/crl.jpg);
+    background: rgb(0, 0, 0);
+    transform: translateY(-80px);
+    margin-bottom: -150px;
+    -webkit-box-shadow: 0px 10px 24px 37px #000000; 
+    box-shadow: 0px 10px 24px 37px #000000;
+    transition: all 1.5s cubic-bezier(0.4, 0, 0.2, 1);
+      .maxWidth{
+          .container{
+              // border: 1px solid rgb(0, 255, 136);          
+              // display: flex;
+             
+  
+              padding: 150px 0 150px 0;
+                //   .left{
+                //       img{
+                     
+                //       }
+                      .shadow{
+                          background: var(--bgBlack);
+                          opacity: 0.2;
+                          width: 180px;
+                          height: 30px;
+                          border-radius: 50%;
+                          margin:auto;
+                          filter: blur(4px);
+                          animation: shadow 1.5s ease-in-out infinite;
+                        
+                  };
+              }
+              .right{
+                  margin: auto;
+                  transition: all 1.3s ease;
+                  // border: 1px solid rgb(0, 255, 136);
+  
+                  h2{
+                      color: #fff !important;
+                      text-align: left;
+                      font-family: 'Montserrat', sans-serif;
+                      font-weight: 800;
+                  
+                  }
+
+  
+                  p{
+                      color: var(--textLight);
+                      text-align: left;
+                      line-height: 25px;
+                      font-family: 'Montserrat', sans-serif;
+                      padding-bottom: 70px;
+                  }
+                 
+                  button{
+                      
+                        // width: 319px;
+                        width: 100%;
+                        height: 71px;
+                        left: 1093px;
+                        top: 2746px;
+                        border-radius: 3px;
+                        background: rgb(36,36,36);
+                        background: linear-gradient(87deg, rgb(14, 14, 14) 0%, rgb(15, 15, 15) 100%);
+
+                        a{
+                            color: #fff;
+                        }
+                        
+                      
+                      
+  
+                      &:hover{
+                        background: linear-gradient(91.34deg, #E36732 13.32%, #E35232 92.75%);
+                     
+                        //   box-shadow: inset 5px 5px 10px var(--bgDark),
+                        //               inset -5px -5px 10px var(--bgMedium);
+                        //   transform: scale(1.1);
+                          
+                      }
+                  }
+              }
+          }
+      }
+  
+  

@@ -1,0 +1,139 @@
+//Zerando as configurações dos navegadores
+* {
+    padding: 0;
+    margin: 0;
+    font-family: $fontPrincipal;
+  }
+  *, ::before, ::after{
+    box-sizing: border-box;
+  }
+  ul,
+  ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  a {
+    text-decoration: none;
+
+    &:active{
+      transform: scale(0.7);
+  }
+  }
+  img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+  }
+  button, input{
+    border: 0;
+    font-family: $fontPrincipal;
+    background: transparent;
+    &:focus{
+        border: 0;
+    }
+  }
+  body {
+    font-family: $fontPrincipal;
+    overflow-x: hidden;
+    
+    // background-color: var(--bgLight)
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  
+  ::-webkit-scrollbar-track {
+    background: var(--bgDark);
+    /* box-shadow: inset 0 0 5px rgb(148, 225, 255);  */
+    /* border-radius: 10px; */
+  }
+  
+  /* Handle */
+  
+  ::-webkit-scrollbar-thumb {
+    // background: linear-gradient(to top, #d83cff, #8605ff,  #6200ff, #591dff, #5a13ff);
+    background: #E36732;
+    border-radius: 10px;
+
+  }
+  
+  /* Handle on hover */
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #E35232;
+  }
+  
+
+  // #scrollPath{
+  //   position: fixed;
+  //   top: 0;
+  //   right: 0;
+  //   width: 10px;
+  //   height: 100%;
+  //   background: transparent;
+  //   z-index: 999999999999;
+  // }
+
+  // #progressbar{
+  //   position: fixed;
+  //   top: 0;
+  //   right: 0;
+  //   width: 10px;
+  //   height: 100%;
+  //   background: linear-gradient(to top, #ff00c8, #0004ff, #00a2ff);
+  //   border-radius: 10px;
+  //   animation: animate 1s linear infinite;
+  //   z-index: 999999999999;
+  // }
+
+ 
+
+  // #progressbar:before{
+  //   content: '';
+  //   position: absolute;
+  //   top: 0;
+  //   right: 0;
+  //   width: 10px;
+  //   height: 100%;
+  //   background: linear-gradient(to top, #ff00c8, #0004ff, #00a2ff);
+  //   filter: blur(30px)
+  // }
+
+  .progressbar, .scrollPath, .about, .news, .gamemode, .projects, .roadmap, .excecutives, .early-accsess, footer {
+    position: sticky;
+    z-index: 15;
+    
+}
+.about h2, .news h2, .gamemode h2, .projects h2, .roadmap h2, footer h2{
+  font-family: 'Montserrat', sans-serif; 
+  font-weight: 800;
+  font-size: 2.3rem;
+  color: #fff;
+  
+  
+}
+
+
+.progressbar, .scrollPath {
+  position: absolute;
+  z-index: 999;
+}
+
+
+ 
